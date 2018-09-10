@@ -7,6 +7,6 @@ import (
 func main() {
 	var Imie string
 	fmt.Print("Podaj imie: ")
-	fmt.Scan(&Imie)
+	fmt.Scanln(&Imie)
 	fmt.Println("Witaj, ", Imie)
 }
