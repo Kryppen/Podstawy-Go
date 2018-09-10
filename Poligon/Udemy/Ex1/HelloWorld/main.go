@@ -5,5 +5,8 @@ import (
 )
 
 func main() {
-	fmt.Println("Hello, Paweł Kryński")
+	var Imie string
+	fmt.Print("Podaj imie: ")
+	fmt.Scan(&Imie)
+	fmt.Println("Witaj, ", Imie)
 }
