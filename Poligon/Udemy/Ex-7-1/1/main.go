@@ -16,12 +16,6 @@ func main() {
 	}
 }
 
-func half(i int) (wynik int, parzysta bool) {
-	wynik = i / 2
-	if i%2 == 0 {
-		parzysta = true
-	} else {
-		parzysta = false
-	}
-	return wynik, parzysta
+func half(i int) (int, bool) {
+	return i / 2, i%2 == 0
 }
