@@ -5,17 +5,9 @@ import (
 )
 
 func main() {
-	var wyn int
-	var parz bool
-	wyn, parz = half(11)
-	if parz {
-		fmt.Println("Wynik=", wyn, " Liczba jest parzysta!")
-	} else {
-		fmt.Println("Wynik=", wyn, " Liczba jest nieparzysta!")
-
+	wyn := func(i int) (int, bool) {
+		return i / 2, i%2 == 0
 	}
-}
 
-func half(i int) (int, bool) {
-	return i / 2, i%2 == 0
+	fmt.Println(wyn(11))
 }
