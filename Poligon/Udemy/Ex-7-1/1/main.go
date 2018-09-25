@@ -9,5 +9,5 @@ func main() {
 		return i / 2, i%2 == 0
 	}
 
-	fmt.Println(wyn(11))
+	fmt.Println(wyn(12))
 }
