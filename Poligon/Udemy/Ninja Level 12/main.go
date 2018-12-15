@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"https://github.com/Kryppen/Podstawy-Go/tree/master/Poligon/Udemy/Ninja%20Level%2012"
+	"github.com/Kryppen/Podstawy-Go/Poligon/Udemy/Ninja%20Level%2012/Ex%201"
 )
 
 func main() {
